@@ -1,0 +1,10 @@
+{
+  "name": "hide vk friends",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "hides friends block on vk pages",
+  "content_scripts": [{
+    "matches": ["https://vk.com/*"],
+    "js": ["content.js"]
+  }]
+}
